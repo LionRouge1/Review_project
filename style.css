@@ -1,0 +1,24 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+#header{
+ /*position: fixed;*/
+ width: 100%;
+ margin-left: 40px;
+ display: flex;
+ justify-content: space-evenly;
+
+}
+#header-img{
+ width: 300px;
+ height: 40px;
+}
+
+@media (max-width:900px) {
+ #header {
+     display: flex;
+     flex-direction: row;
+ }
+}
